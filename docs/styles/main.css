@@ -15,10 +15,14 @@ body {
 
 header {
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 main {
   padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .fast-pres {
@@ -33,6 +37,11 @@ bold {
   font-weight: bold;
 }
 
+ul > li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .separator {
   max-width: 500px;
   width: 100%;
@@ -40,6 +49,10 @@ bold {
   background: #615C52;
   border-radius: 30px;
   margin: 45px 0px;
+}
+
+.contact {
+  margin-bottom: 50px;
 }
 
 .contact-l {
@@ -63,4 +76,55 @@ bold {
 
 .contact-l img {
   color: #DAD7BF
+}
+
+.piece-all-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 15px 15px;
+}
+
+.piece-all-container h2 {
+  margin-top: 0px;
+}
+
+.piece-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.piece-container > img {
+  width: 100%;
+}
+
+.piece-container > p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.piece-container > .pic-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.pic-container > img {
+  width: 80%;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.col {
+  flex-direction: column !important;
 }
