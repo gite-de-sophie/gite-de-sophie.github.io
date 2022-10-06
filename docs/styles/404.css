@@ -1,0 +1,24 @@
+.c404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 5px 15px;
+}
+
+.c404 .title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.c404 a {
+  color: #DAD7BF;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.c404 .sub {
+  font-size: 20px;
+}
