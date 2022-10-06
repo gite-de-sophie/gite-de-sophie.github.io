@@ -119,7 +119,15 @@ ul > li {
   width: 100%;
 }
 
-.pic-container > img {
+.pic-container a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic-container img {
   width: 80%;
   margin: 15px;
   border-radius: 8px;
